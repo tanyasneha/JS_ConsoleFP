@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
+
+h2{
+    width:100%;
+    text-align: center;
+}
+
+#console-wrapper {
+    width: 700px;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    background: #E9967A;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 20px;
+    overflow: scroll;
+}
+
+input[type="text"] {
+    background-color: #DC143C;
+    color: #ffffff;
+    border-radius: 30px;
+    width: 400px;
+}
+
+input:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding-left: 1.3em;
+    padding-top: 10px;
+}
+li:before {
+    content: ">";
+    display: inline-block;
+    margin-left: -1em;
+    width: 1em;
+    color: white;
+}
