@@ -1,1 +1,1 @@
-# js-console
+#JavaScript Console build using Functional Programming Concepts.
